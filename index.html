@@ -5,15 +5,11 @@
 <body style='margin : 0px; overflow: hidden;'>
 	<a-scene embedded arjs>
 		<!-- below is the content. just a cube for now -->
-   		<a-entity
-            position="0 0 0"
-            scale="0.05 0.05 0.05"
-            gltf-model="https://raw.githubusercontent.com/robertricht/kaefer/2a15823a765a5bf47d5d7d4e38d89eaf8aa01205/scene.gltf"
-            ></a-entity>
+   		
 		 <a-assets>
         <a-asset-item id="tree" src="tree.gltf"></a-asset-item>
 	</a-assets>
-	<a-entity gltf-model="url(https://raw.githubusercontent.com/robertricht/kaefer/2a15823a765a5bf47d5d7d4e38d89eaf8aa01205/scene.gltf)" scale="0.5 0.5 0.5"></a-entity>
+	
   		<!-- define a camera that will move according to the position of the marker -->
   		<a-marker-camera preset='hiro'></a-marker-camera>
   </a-scene>
